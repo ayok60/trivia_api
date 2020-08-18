@@ -1,13 +1,8 @@
 # Full Stack Trivia API Final Project
 
 ## Table of Contents
-- [About the project](#Abouttheproject)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
+- [Headers](#headers)  
+
 
 
 ## About the project 
