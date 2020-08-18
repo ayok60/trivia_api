@@ -23,18 +23,31 @@ This project is about trivia game where the users test their general information
 1. [`./frontend/`](./frontend/README.md)
 2. [`./backend/`](./backend/README.md)
 
-### Prerequisites
+## Prerequisites
 
  - <a href="https://www.python.org/downloads/" target="_blank">`Python3`</a>
  - <a href="https://pip.pypa.io/en/stable/installing/" target="_blank">`pip`</a>
  - <a href="https://nodejs.org/en/download/package-manager/" target="_blank">`node`</a>
  - [`npm`](#Installation)
 
-### Installation
+## Installation
 
-#### Frontend Dependencies
+### Frontend Dependencies
 
-#### Backend Dependencies
+**Installing Node and NPM**
+
+This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
+
+**Installing project dependencies**
+
+This project uses NPM to manage software dependencies. NPM Relies on the package.json file located in the `frontend` directory of this repository. After cloning, open your terminal and run:
+
+```bash
+npm install
+```
+>_tip_: **npm i** is shorthand for **npm install**
+
+### Backend Dependencies
 
 **Python 3.7**
 
@@ -51,6 +64,33 @@ Once you have your virtual environment setup and running, install dependencies b
 ```bash
 pip install -r requirements.txt
 ```
+This will install all of the required packages we selected within the `requirements.txt` file.
+
+##### Key Dependencies
+
+- [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. Flask is required to handle requests and responses.
+
+- [SQLAlchemy](https://www.sqlalchemy.org/) is the Python SQL toolkit and ORM we'll use handle the lightweight sqlite database. You'll primarily work in app.py and can reference models.py. 
+
+- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension we'll use to handle cross origin requests from our frontend server. 
+
+## Database Setup
+
+From within the `backend` directory first ensure you are working using your created virtual environment.
+
+To run the server, execute:
+
+```bash
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+flask run
+```
+
+Setting the `FLASK_ENV` variable to `development` will detect file changes and restart the server automatically.
+
+Setting the `FLASK_APP` variable to `flaskr` directs flask to use the `flaskr` directory and the `__init__.py` file to find the application. 
+
+
 
 There are `TODO` comments throughout project. Start by reading the READMEs in:
 
