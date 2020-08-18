@@ -249,12 +249,12 @@ def create_app(test_config=None):
     while(len(previous_questions) == len(questions)):
       return jsonify({
         'success': True,
+        'question': random_question.format(),
       }) 
 
 
     return jsonify({
-      'success': True,
-      'question': random_question.format(),
+      'success': True
     })
 
         
