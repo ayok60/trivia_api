@@ -1,5 +1,15 @@
 # Full Stack Trivia API Final Project
 
+## Table of Contents
+- [About the project](#About_the_project)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
+
+
 ## About the project 
 
 This project is about trivia game where the users test their general information by answering the questions, with the ability to create and delete questions. The task of the project is to build and test an API that implement the following:
@@ -12,6 +22,9 @@ This project is about trivia game where the users test their general information
 
 ## Getting Started
 
+1. [`./frontend/`](./frontend/README.md)
+2. [`./backend/`](./backend/README.md)
+
 ### Prerequisites
 
  - <a href="https://www.python.org/downloads/" target="_blank">`Python3`</a>
@@ -21,7 +34,6 @@ This project is about trivia game where the users test their general information
 
 ### Installation
 
-#### Python3
 
 There are `TODO` comments throughout project. Start by reading the READMEs in:
 
