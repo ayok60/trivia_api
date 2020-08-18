@@ -16,7 +16,7 @@ This project is about trivia game where the users test their general information
 
  - <a href="https://www.python.org/downloads/" target="_blank">`Python3`</a>
  - <a href="https://pip.pypa.io/en/stable/installing/" target="_blank">`pip`</a>
- - [node](#Installation)
+ - [`node`](#Installation)
  - npm
 
 ### Installation
