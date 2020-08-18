@@ -1,8 +1,11 @@
 # Full Stack Trivia API Final Project
 
 ## Table of Contents
-- [Headers](#About-the-project)  
-
+- [About the project](#About-the-project)  
+- [Getting Started](#Getting-Started) 
+  - [Prerequisites](#Prerequisites)
+  - [Installation](#Installation)
+    
 
 
 ## About the project 
