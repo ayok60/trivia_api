@@ -1,7 +1,7 @@
 # Full Stack Trivia API Final Project
 
 ## Table of Contents
-- [About the project](#(About the project))
+- [About the project](#Abouttheproject)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
