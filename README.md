@@ -458,4 +458,4 @@ This endpoint for creating a question or returning search results.
 ## Author
 
 The API was built `__init__` and tested `test_flaskr.py` by Aya Khashoggi 
-The rest of the app was written by [Udacity](https://www.udacity.com) as a API final project for [Full Stack Web Developer Nanodgree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044)
+The rest of the app was written by [Udacity](https://www.udacity.com) as an API final project for [Full Stack Web Developer Nanodgree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044)
