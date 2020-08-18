@@ -12,6 +12,17 @@ This project is about trivia game where the users test their general information
 
 ## Getting Started
 
+### Prerequisites
+
+ - <a href="https://www.python.org/downloads/" target="_blank">`Python3`</a>
+ - <a href="https://pip.pypa.io/en/stable/installing/" target="_blank">`pip`</a>
+ - [node](#Installation)
+ - npm
+
+### Installation
+
+#### Python3
+
 There are `TODO` comments throughout project. Start by reading the READMEs in:
 
 1. [`./frontend/`](./frontend/README.md)
