@@ -36,14 +36,21 @@ This project is about trivia game where the users test their general information
 
 #### Backend Dependencies
 
-- Python 3.7
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+- **Python 3.7**
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+    Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python).
+    
+- **Virtual Enviornment**
 
-Follow instructions to install the latest version of python for your platform in the python docs.
+    We recommend working within a virtual environment whenever using Python for projects. This keeps your dependencies for each project separate and organaized. Instructions for setting up a virual enviornment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+    
+- **PIP Dependencies**
+
+  Once you have your virtual environment setup and running, install dependencies by naviging to the `/backend` directory and running:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 There are `TODO` comments throughout project. Start by reading the READMEs in:
 
